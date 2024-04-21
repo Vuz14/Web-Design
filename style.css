@@ -7,6 +7,9 @@
 .navbar-nav .nav-link {
     color:black;
 }
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
 .dieuhuong {
     position:fixed;
     top: 0;
@@ -92,5 +95,43 @@
 .aboutus {
     font-size: 25px;
     margin: 40px 20px;
-    color:rgb(145, 200, 200)
+    color:rgb(145, 200, 200);
+}
+#the {
+    margin: 90px 58px;
+    width: 380px;
+    height:300px;
+    background-color:white;
+    padding: 10px;
+}
+#anh1 {
+    width: 50px;
+    height: 50px;
+    margin: 30px 40px;
+}
+#i4Tours {
+    font-size: 16px;
+    margin: 15px 40px;
+}
+h4 {
+    font-family: Cormorant Upright;
+}
+.service {
+    font-size: 25px;
+    margin-left: 58px;
+    margin-top: 40px;
+    padding: 10px;
+    color:white;
+    text-shadow: 1px 1px rgb(145, 200, 200);
+}
+.trend {
+    font-family: Cormorant Upright;
+    font-size: 40px;
+    margin: 70px 60px;
+    color: white;
+    text-shadow: 1px 1px rgb(145, 200, 200);
+}
+.i4Trend {
+    font-size: 16px;
+    margin: -60px 60px;
 }
