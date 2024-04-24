@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Cabin" />
     <link href='https://fonts.googleapis.com/css?family=Cormorant Upright' rel='stylesheet'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
@@ -149,57 +150,93 @@
       </div>
       </div>
       <div class="row"> 
-          <div class="col-md-4"> 
-               <img src="nhatrang.jpg" alt=" nhatrang" class="anhpackages">
-              <div id="optionpackages"> Nha Trang</div>
-              <div id="price"> $100 </div>
-              <div style="margin: 0px 50px;"> 
-              <input type="radio" class="star" id="star-1" name="star"/>
-              <label class="star" for="star-1"></label>
-              <input type="radio" class="star" id="star-2" name="star"/>
-              <label class="star" for="star-2"></label>
-              <input type="radio" class="star" id="star-3" name="star"/>
-              <label class="star" for="star-3"></label>
-              <input type="radio" class="star" id="star-4" name="star"/>
-              <label class="star" for="star-4"></label>
-              <input type="radio" class="star" id="star-5" name="star"/>
-              <label class="star" for="star-5"></label>
+          <div class="col-md-12">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+              </ul>
+              <!-- The slideshow -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                <div class="caption">
+                <div style="margin-left: 20px;">
+                  <img src="nhatrang.jpg" alt="nhatrang">
+                  <div id="optionpackages"> Nha Trang</div>
+                  <div id="price"> $100 </div>
+                  <div> 
+                  <input type="radio" class="star" id="star-1" name="star"/>
+                  <label class="star" for="star-1"></label>
+                  <input type="radio" class="star" id="star-2" name="star"/>
+                  <label class="star" for="star-2"></label>
+                  <input type="radio" class="star" id="star-3" name="star"/>
+                  <label class="star" for="star-3"></label>
+                  <input type="radio" class="star" id="star-4" name="star"/>
+                  <label class="star" for="star-4"></label>
+                  <input type="radio" class="star" id="star-5" name="star"/>
+                  <label class="star" for="star-5"></label>
+                </div>
+                </div>  
+                  <div style="margin-left: 20px; font-size: 18px;"> Nha Trang, a popular tourist city in Vietnam, attracts visitors with beautiful beaches and diverse cuisine. With a rich historical culture and attractions such as Po Nagar Tower, Nha Trang appeals to those who want to relax and explore.</div>
+                </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="caption">
+                  <div style="margin-left: 20px;">
+                    <img src="halong.jpg" alt="halong">
+                    <div id="optionpackages"> Hạ Long </div>
+                    <div id="price"> $200 </div>
+                    <div> 
+                    <input type="radio" class="star" id="star-1" name="star"/>
+                    <label class="star" for="star-1"></label>
+                    <input type="radio" class="star" id="star-2" name="star"/>
+                    <label class="star" for="star-2"></label>
+                    <input type="radio" class="star" id="star-3" name="star"/>
+                    <label class="star" for="star-3"></label>
+                    <input type="radio" class="star" id="star-4" name="star"/>
+                    <label class="star" for="star-4"></label>
+                    <input type="radio" class="star" id="star-5" name="star"/>
+                    <label class="star" for="star-5"></label>
+                  </div>
+                </div>  
+                    <div style="margin-left: 20px; font-size: 18px;"> Halong Bay, a natural wonder of Vietnam, with thousands of majestic limestone islands, unique caves, and rich seafood cuisine. This is an ideal destination for those who want to explore the unique natural beauty of Vietnam. </div>   
+                </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="caption">
+                  <div style="margin-left: 20px;">
+                    <img src="caobang.jpg" alt="caobang">
+                    <div id="optionpackages"> Cao Bằng</div>
+                    <div id="price"> $150 </div>
+                    <div> 
+                    <input type="radio" class="star" id="star-1" name="star"/>
+                    <label class="star" for="star-1"></label>
+                    <input type="radio" class="star" id="star-2" name="star"/>
+                    <label class="star" for="star-2"></label>
+                    <input type="radio" class="star" id="star-3" name="star"/>
+                    <label class="star" for="star-3"></label>
+                    <input type="radio" class="star" id="star-4" name="star"/>
+                    <label class="star" for="star-4"></label>
+                    <input type="radio" class="star" id="star-5" name="star"/>
+                    <label class="star" for="star-5"></label>
+                  </div>
+                </div>
+                    <div style="margin-left: 20px; font-size: 18px;">Cao Bang, a pristine and poetic destination in Vietnam, attracts tourists with magnificent natural landscapes and unique cultural heritage. This place is famous for Ban Gioc Waterfall - one of the largest waterfalls in Southeast Asia, located on the Vietnam-China border.</div>
+                </div>
+                </div>
               </div>
-          </div>
-          <div class="col-md-4"> 
-            <img src="halong.jpg" alt="halong" class="anhpackages">
-           <div id="optionpackages"> Hạ Long</div>
-           <div id="price"> $200 </div>
-           <div style="margin: 0px 50px;"> 
-           <input type="radio" class="star" id="star-1" name="star"/>
-           <label class="star" for="star-1"></label>
-           <input type="radio" class="star" id="star-2" name="star"/>
-           <label class="star" for="star-2"></label>
-           <input type="radio" class="star" id="star-3" name="star"/>
-           <label class="star" for="star-3"></label>
-           <input type="radio" class="star" id="star-4" name="star"/>
-           <label class="star" for="star-4"></label>
-           <input type="radio" class="star" id="star-5" name="star"/>
-           <label class="star" for="star-5"></label>
-           </div>
-       </div>
-              <div class="col-md-4"> 
-              <img src="caobang.jpg" alt="caobang" class="anhpackages">
-              <div id="optionpackages"> Cao Bằng </div>
-              <div id="price"> $100 </div>
-              <div style="margin: 0px 50px;"> 
-              <input type="radio" class="star" id="star-1" name="star"/>
-              <label class="star" for="star-1"></label>
-              <input type="radio" class="star" id="star-2" name="star"/>
-              <label class="star" for="star-2"></label>
-              <input type="radio" class="star" id="star-3" name="star"/>
-              <label class="star" for="star-3"></label>
-              <input type="radio" class="star" id="star-4" name="star"/>
-              <label class="star" for="star-4"></label>
-              <input type="radio" class="star" id="star-5" name="star"/>
-              <label class="star" for="star-5"></label>
-         </div>
-     </div>
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon" style="opacity: 0.1;"></span>
+              </a>
+              <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            
+            </div>
+      </div>
       </div>
       
       </div>

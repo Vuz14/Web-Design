@@ -148,22 +148,17 @@ h4 {
     padding: 10px;
     color: rgba(37, 173, 173, 0.862);
 }
-.anhpackages {
-    margin: 10px 60px;
-    width:450px;
-    height:300px;
-}
 #optionpackages {
     font-size: 25px;
     font-weight: 600;
     font-family: Cabin;
-    margin: 10px 57px;
+    margin: 10px -2px;
     color: rgb(26, 158, 168);
 }
 #price {
     font-size: 20px;
     font-weight: 600;
-    margin: -10px 57px;
+    margin: -10px 0px;
 }
 /* Star rating */
 div.stars {
@@ -171,14 +166,29 @@ div.stars {
     display: inline-block;
 }
 input.star {
-display: none;
+    display: none;
 }
 label.star {
-padding: 10px;
-font-size: 15px;
-color: #FD4;
+    padding: 10px;
+    font-size: 15px;
+    color: #FD4;
+    margin-left: -10px;
 }
 label.star:before {
-content: '\f005';
-font-family: FontAwesome;
+    content: '\f005';
+    font-family: FontAwesome;
+}
+/* Slider */
+.carousel {
+    max-width: 800px;
+    max-height: 400px;
+    margin:auto;
+}
+.carousel-inner img {
+    width: 300px;
+    height: 200px;
+}
+.caption {
+    text-align: left; /* Căn chữ sang trái */
+    display: flex;
 }
