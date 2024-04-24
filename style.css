@@ -17,6 +17,9 @@
     width: 100%;
     background-color: rgb(248, 248, 248); 
 }
+.detail {
+    box-shadow: 1px 1px 1px 1px black;
+}
 .loichao {
     font-size: 25px;
     margin: 50px 70px;
@@ -159,6 +162,7 @@ h4 {
     font-size: 20px;
     font-weight: 600;
     margin: -10px 0px;
+    display:flex;
 }
 /* Star rating */
 div.stars {
@@ -180,15 +184,110 @@ label.star:before {
 }
 /* Slider */
 .carousel {
-    max-width: 800px;
+    max-width: 1000px;
     max-height: 400px;
     margin:auto;
 }
 .carousel-inner img {
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height:250px;
 }
 .caption {
     text-align: left; /* Căn chữ sang trái */
     display: flex;
+}
+/* Offer*/
+.offer {
+    max-width: 1000px;
+    margin: 50px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+/* Reason*/
+.reason {
+    margin: 20px 140px;
+    font-size: 25px;
+}
+.custom-icon {
+    margin-right: 30px;
+    color: rgba(37, 173, 173, 0.862);
+}
+.tieude {
+    font-size: 80px;
+    margin: 40px 140px;
+    font-weight: 540;
+}
+.tenwhy {
+    font-size: 25px;
+    margin: 50px 140px;
+    color:rgb(145, 200, 200)
+}
+.discount {
+    background-color: red;
+    color: white;
+    width: 50px;
+    padding: 0px;
+    text-align: center;
+    margin: 0px 7px;
+}
+.travel {
+    width: 370px;
+    height: 350px;
+    margin: 100px -20px;
+    border-radius: 10px;
+    transform: rotate(-10deg);
+}
+.travel1 {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    transform: rotate(10deg);
+}
+/* Ảnh khoảnh khắc*/
+.memories1 {
+    width:  250px;
+    height: 350px;
+    float:right;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+}
+.memories {
+    width:  250px;
+    height: 350px;
+    margin-left: 20px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+}
+/*Footer*/
+.call {
+    transform: rotate(90deg);
+}
+.fot {
+    display: flex;
+    flex-flow: wrap;
+}
+.lienlac {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0% 9%;
+}
+.follow {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 23%;
+}
+.app {
+    margin: 0% 5%;
+    line-height: 50px;
+    font-size: 20px;
+}
+.text {
+    margin: 20% -15%;
+    width: 400px; 
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(197, 191, 191);
 }
