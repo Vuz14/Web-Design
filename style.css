@@ -23,7 +23,7 @@
 .loichao {
     font-size: 25px;
     margin: 50px 70px;
-    color:rgb(145, 200, 200)
+    color:rgb(25, 126, 126)
 }
 .slogan {
     font-size: 80px;
@@ -95,12 +95,18 @@
     background-color: rgba(37, 173, 173, 0.862);
     color: white;
 }
+/* About us*/
 .secret {
-    width:550px;
+    width:600px;
     margin: 50px 70px;
     border-radius: 10px;
 }
-
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    border-radius: 50px;
+}
 .aboutus {
     font-size: 25px;
     margin: 40px 20px;
