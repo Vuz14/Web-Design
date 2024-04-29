@@ -24,6 +24,7 @@
     width: 100%;
     background-color: rgb(248, 248, 248); 
 }
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -87,4 +88,27 @@ video {
     width: 420px;
     height: 250px;
     border-radius: 10px;
+}
+.laudai {
+    width: 450px;
+    height: 650px;
+    margin: 10% 12%;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+}
+/* Thành tích */
+.thanhtich {
+    display:flex;
+    flex-direction: column;
+    font-family: 'Cabin';
+    width: 300px;
+    margin: 0% 20%;
+}
+.thongke {
+    font-size: 60px;
+    color:rgb(37, 151, 151);
+}
+.flex {
+    display:flex;
+    flex-direction: row;
 }
